@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Oneplus Calculator</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h1 class="logo"> Oneplus</h1>
+        <div class="display_div">
+            <input type="text" id="display">
+
+            <div class="button_div">
+                <div class="buttons">
+                    <button onclick="clearvalue()" class="btn2"><h2>AC</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('%')" class="btn2"><h2>%</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="clearone('X')" class="btn2"><h2>X</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('/')" class="btn2"><h2>/</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('7')" class="btn"><h2>7</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('8')" class="btn"><h2>8</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('9')" class="btn"><h2>9</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('*')" class="btn2"><h1>*</h1></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('4')"class="btn"><h2>4</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('5')" class="btn"><h2>5</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('6')" class="btn"><h2>6</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('-')" class="btn2"><h2>-</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('1')" class="btn"><h2>1</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('2')" class="btn"><h2>2</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('3')" class="btn"><h2>3</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('+')" class="btn2"><h2>+</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('00')" class="btn"><h2>00</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('0')" class="btn"><h2>0</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="displayvalue('.')" class="btn"><h2>.</h2></button>
+                </div>
+                <div class="buttons">
+                    <button onclick="calculation()" class="btn3"><h2>=</h2></button>
+                </div>
+                
+            </div>
+
+          
+        </div>
+        
+        
+        
+    </div>
+
+    
+</body>
+
+<script src="/script.js"></script>
+</html>

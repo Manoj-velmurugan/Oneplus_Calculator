@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.logo{
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.display_div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button_div{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator{
+    background-color: black;
+    width: 300px;
+    height: 505px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    color: white;
+}
+
+#display{
+    font-family: 'Rethink Sans', sans-serif;
+    margin-top: -50px;
+    margin-bottom: 1px;
+    width: 85%;
+    height: 70px;
+    /* border: 2px solid blue; */
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    border: 0px;
+    text-align: right;
+}
+
+.buttons{
+    padding: 6.22px;
+    border: 0px;
+}
+
+.btn,.btn2,.btn3:hover{
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: 0;
+    background-color: #262424;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #4b4949
+ 
+}
+
+.btn2{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: 0;
+    background-color: #4b4949;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #262424;
+   
+}
+
+.btn3{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: 0;
+    background-color: #e52d1f;
+    color: white;
+}
+
+.btn3:hover{
+    background-color: #a71c11;
+  
+}
+
+h2{
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: large;
+}
+
+
+
+
+
